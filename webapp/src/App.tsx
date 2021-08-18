@@ -1,4 +1,4 @@
-import { Main } from 'mymain';
+import { Main } from '@package/mymain';
 import * as React from 'react';
 import './App.css';
 

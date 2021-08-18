@@ -1,8 +1,11 @@
 {
   "extends": "../tsconfig-base.json",
-
   "compilerOptions": {
-    "baseUrl": "../../packages",
-    "outDir": "build/dist"
-  }
+    "outDir": "build/dist",
+    "baseUrl": "."
+  },
+  "include": [
+    "src",
+    "images.d.ts"
+  ]
 }
